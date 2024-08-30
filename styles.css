@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background-color: #1F2937; /* Dark background color */
+    color: #F9FAF8; /* Light text color */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8; /* Header Logo Text color */
+}
+
+.header-nav a {
+    color: #E5E7EB; /* Hero Secondary text, Header Link Text color */
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px; /* Secondary text font size */
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #1F2937; /* Dark background color */
+    color: #F9FAF8; /* Light text color */
+}
+
+.main-content {
+    max-width: 50%;
+}
+
+.main-content h1 {
+    font-size: 48px; /* Hero Main text size */
+    color: #F9FAF8; /* Main text color */
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 18px; /* Secondary text font size */
+    color: #E5E7EB; /* Secondary text color */
+}
+
+.sign-up {
+    background-color: #3882F6; /* Button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.main-image .image-placeholder {
+    background-color: #95a5a6;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.info-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.info-section h2 {
+    font-size: 36px; /* Information header text size */
+    color: #1F2937; /* Information header text color */
+    font-weight: 900;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.info-box {
+    background-color: #f0f0f0;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d1d1d1;
+}
+
+.testimonial-section {
+    background-color: #E5E7EB; /* Quote section background color */
+    text-align: center;
+    padding: 50px 20px;
+    font-style: italic;
+}
+
+.testimonial-section blockquote p {
+    font-size: 36px; /* Quote text size */
+    color: #1F2937; /* Quote text color */
+    font-style: italic;
+}
+
+.cta-section {
+    background-color: #3882F6; /* Call to action background color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #1F2937; /* Dark background color */
+    color: #F9FAF8; /* Footer text color */
+    text-align: center;
+    padding: 10px 0;
+}
