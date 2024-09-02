@@ -6,23 +6,35 @@ body {
 }
 
 .header {
-    background-color: #1F2937; /* Dark background color */
-    color: #F9FAF8; /* Light text color */
+    background-color: #1F2937; 
+    color: #F9FAF8; 
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
 
 .header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 252px;
+    max-width: 600px; 
+    padding: 20px;
     font-size: 24px;
-    color: #F9FAF8; /* Header Logo Text color */
+    color: #F9FAF8; 
+}
+
+.logo{
+height: 250px;
+width: 250px;
+max-width: 100%;
 }
 
 .header-nav a {
-    color: #E5E7EB; /* Hero Secondary text, Header Link Text color */
+    color: #E5E7EB; 
     margin-left: 20px;
     text-decoration: none;
-    font-size: 18px; /* Secondary text font size */
+    font-size: 18px; 
 }
 
 .main-section {
@@ -75,8 +87,8 @@ body {
 }
 
 .info-section h2 {
-    font-size: 36px; /* Information header text size */
-    color: #1F2937; /* Information header text color */
+    font-size: 36px; 
+    color: #1F2937; 
     font-weight: 900;
 }
 
@@ -97,28 +109,28 @@ body {
 }
 
 .testimonial-section {
-    background-color: #E5E7EB; /* Quote section background color */
+    background-color: #E5E7EB; 
     text-align: center;
     padding: 50px 20px;
     font-style: italic;
 }
 
 .testimonial-section blockquote p {
-    font-size: 36px; /* Quote text size */
-    color: #1F2937; /* Quote text color */
+    font-size: 36px; 
+    color: #1F2937; 
     font-style: italic;
 }
 
 .cta-section {
-    background-color: #3882F6; /* Call to action background color */
+    background-color: #3882F6; 
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 .footer {
-    background-color: #1F2937; /* Dark background color */
-    color: #F9FAF8; /* Footer text color */
+    background-color: #1F2937; 
+    color: #F9FAF8; 
     text-align: center;
     padding: 10px 0;
 }
